@@ -36,3 +36,127 @@
   align-items: center;
   margin-right: 3px;
 }
+
+.buttonWrap {
+  background-color: red;
+  height: 35px;
+  display: flex;
+  align-items: flex-start;
+  margin-right: 10px;
+}
+
+.reactions {
+  background: linear-gradient(
+    90deg,
+    rgba(220, 84, 235, 1) 0%,
+    rgba(190, 52, 173, 1) 53%,
+    rgba(96, 1, 115, 1) 95%
+  );
+}
+
+.entertainment {
+  background: linear-gradient(
+    90deg,
+    rgb(84, 187, 235) 0%,
+    rgb(52, 112, 190) 53%,
+    rgb(31, 1, 115) 95%
+  );
+}
+
+.sports {
+  background: linear-gradient(
+    90deg,
+    rgb(84, 187, 235) 0%,
+    rgb(52, 112, 190) 53%,
+    rgb(31, 1, 115) 95%
+  );
+}
+
+.artists {
+  background: linear-gradient(
+    90deg,
+    rgb(84, 187, 235) 0%,
+    rgb(52, 112, 190) 53%,
+    rgb(31, 1, 115) 95%
+  );
+}
+
+.stickers {
+  background: linear-gradient(
+    90deg,
+    rgb(84, 187, 235) 0%,
+    rgb(52, 112, 190) 53%,
+    rgb(31, 1, 115) 95%
+  );
+}
+
+.moreVertIcon {
+  background: linear-gradient(
+    90deg,
+    rgb(84, 187, 235) 0%,
+    rgb(52, 112, 190) 53%,
+    rgb(31, 1, 115) 95%
+  );
+}
+
+.hover-reactions:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(84, 187, 235) 0%,
+    rgb(52, 112, 190) 53%,
+    rgb(31, 1, 115) 95%
+  );
+}
+
+.hover-moreVertIcon:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(84, 187, 235) 0%,
+    rgb(52, 112, 190) 53%,
+    rgb(31, 1, 115) 95%
+  );
+}
+
+.hover-stickers:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(84, 187, 235) 0%,
+    rgb(52, 112, 190) 53%,
+    rgb(31, 1, 115) 95%
+  );
+}
+
+.hover-entertainment:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(84, 187, 235) 0%,
+    rgb(52, 112, 190) 53%,
+    rgb(31, 1, 115) 95%
+  );
+}
+
+.hover-artists:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(84, 187, 235) 0%,
+    rgb(52, 112, 190) 53%,
+    rgb(31, 1, 115) 95%
+  );
+}
+
+.hover-sports:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(84, 187, 235) 0%,
+    rgb(52, 112, 190) 53%,
+    rgb(31, 1, 115) 95%
+  );
+}
+
+.menu-button {
+  background-color: black;
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
