@@ -1,8 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
-  return <div className="App">Let's make the new website</div>;
+  return (
+    <div className="App">
+      <div className="main">
+        <Header />
+      </div>
+    </div>
+  );
 }
 
 export default App;
