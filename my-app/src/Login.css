@@ -1,0 +1,34 @@
+.formContainer {
+  margin-top: 20%;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 400px;
+  background-color: #13101a;
+}
+
+.formContainer img {
+  display: flex;
+  width: 200px;
+}
+
+.formHolder {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 50px;
+}

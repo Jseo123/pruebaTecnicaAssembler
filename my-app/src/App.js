@@ -1,17 +1,18 @@
 import "./App.css";
-import Header from "./components/Header";
-import Media from "./components/Media";
-import SearchContainer from "./components/SearchContainer";
+import Main from "./Main";
+import Login from "./Login";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <div className="main">
-        <Header />
-        <SearchContainer />
-        <Media />
+    <BrowserRouter>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/log" element={<Login />} />
+        </Routes>
       </div>
-    </div>
+    </BrowserRouter>
   );
 }
 
