@@ -1,6 +1,8 @@
 import { Password } from "@mui/icons-material";
 import { createContext, useContext } from "react";
 import { createUserWithEmailAndPassword } from "firebase/auth";
+import { auth } from "../firebase";
+
 export const authContext = createContext();
 
 export const useAuth = () => {
@@ -13,7 +15,9 @@ export const AuthProvider = ({ children }) => {
     login: false,
   };
 
-  const signUp = (email, password) => {};
+  const signUp = (email, password) => {
+    createUserWithEmailAndPassword(auth, email, password);
+  };
 
   return (
     <authContext.Provider value={{ signUp }}>{children}</authContext.Provider>
